@@ -1,5 +1,5 @@
 # hackbox-lab
-### Shoutout to @gerardobrien 
+#### Shoutout to @gerardobrien's youtube channel
 A cyber security lab hosted in Proxmox VE
 
 ![](hackbox-lab-topology.png)
@@ -39,3 +39,6 @@ https://www.tenable.com/downloads/nessus?loginAttempted=true
 - Automation
   - VM deployment script
   - Ansible
+
+## Credits
+#### Shoutout to @gerardobrien's youtube channel
