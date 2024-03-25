@@ -4,7 +4,7 @@ A cyber security lab hosted in Proxmox VE
 
 
 
-![](hackbox-lab-topology.png)
+![](hackbox-lab-topology-03252024.png)
 
 This repo was inpired by a youtube series from @gerardobrien. This is my take on his concept. 
 
