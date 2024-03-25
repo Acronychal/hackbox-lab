@@ -8,7 +8,7 @@ A cyber security lab hosted in Proxmox VE
 
 This repo was inpired by a youtube series from @gerardobrien. This is my take on his concept. 
 
-On this topology, I decided to segretate the scan systems from the Kali workbench.
+On this topology, I decided to segretate the scan systems from the Kali workbench. Also, I used a differnt ip schema.
 
 # Prerequisites 
 
@@ -21,21 +21,21 @@ On this topology, I decided to segretate the scan systems from the Kali workbenc
 
 ## Docker
 
-https://docs.docker.com/engine/install/ubuntu/
-https://docs.portainer.io/start/install-ce/server/docker/linux
+- https://docs.docker.com/engine/install/ubuntu/
+- https://docs.portainer.io/start/install-ce/server/docker/linux
 
 ## Docker Images
 
-bwapp - https://hub.docker.com/r/raesene/bwapp
-dvwa - https://hub.docker.com/r/vulnerables/web-dvwa/
-webgoat - https://hub.docker.com/r/webgoat/webgoat
+- bwapp - https://hub.docker.com/r/raesene/bwapp
+- dvwa - https://hub.docker.com/r/vulnerables/web-dvwa/
+- webgoat - https://hub.docker.com/r/webgoat/webgoat
 
 ## Wazuh
 
-https://documentation.wazuh.com/current/quickstart.html
-https://documentation.wazuh.com/current/installation-guide/wazuh-agent/index.html
-https://documentation.wazuh.com/current/user-manual/capabilities/container-security/monitoring-docker.html
-https://github.com/gerardobrien/ultimate-cybersecurity-lab
+- https://documentation.wazuh.com/current/quickstart.html
+- https://documentation.wazuh.com/current/installation-guide/wazuh-agent/index.html
+- https://documentation.wazuh.com/current/user-manual/capabilities/container-security/monitoring-docker.html
+- https://github.com/gerardobrien/ultimate-cybersecurity-lab
 
 ## Nessus
 
