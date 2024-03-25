@@ -8,7 +8,7 @@ A cyber security lab hosted in Proxmox VE
 
 This repo was inpired by a youtube series from @gerardobrien. This is my take on his concept. 
 
-On this topology, I decided to segretate the scan systems from the Kali workbench. Also, I used a differnt ip schema.
+On this topology, I decided to segretate the SIEM tools from the Kali workbench. Also, I used a differnt ip schema.
 
 # Prerequisites 
 
