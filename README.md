@@ -4,11 +4,11 @@ A cyber security lab hosted in Proxmox VE
 
 
 
-![](hackbox-lab-topology-03252024.png)
+![](hackbox-lab-topology-03272024.png)
 
-This repo was inpired by a youtube series from @gerardobrien. This is my take on his concept. 
+This repo was inpired by @gerardobrien's "Ultimate Cybersecurity Lab" series. This is my take on his concept. 
 
-On this topology, I decided to segretate the SIEM tools from the Kali workbench. Also, I used a differnt ip schema.
+On this topology, I decided to segretate the SIEM tools from the Kali workbench. Also, I used a differnt ip schema and added an additional widows 2025 server image to thee mix. 
 
 # Prerequisites 
 
@@ -18,6 +18,8 @@ On this topology, I decided to segretate the SIEM tools from the Kali workbench.
  - Hardware used: 1 Dell Latitude 5500 laptop - 1tb ssd - 32 gb RAM
 
 # Build Links
+
+The following are links for elements needed to standd up each node. 
 
 ## Docker
 
@@ -50,7 +52,7 @@ On this topology, I decided to segretate the SIEM tools from the Kali workbench.
   - Topology (WIP)
   - Writeup
   - Enumeration worksheet
-  - 
+  - Proxmox build doc
 - Automation
   - VM deployment script
   - Ansible
