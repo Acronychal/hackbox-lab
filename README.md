@@ -8,13 +8,13 @@ A cyber security lab hosted in Proxmox VE
 
 This repo was inpired by @gerardobrien's "Ultimate Cybersecurity Lab" series. This is my take on his concept. 
 
-On this topology, I decided to segretate the SIEM tools from the Kali workbench. Also, I used a differnt ip schema and added an additional widows 2025 server image to thee mix. 
+On this topology, I decided to segretate the SIEM tools from the Kali workbench. Also, I used a differnt ip schema and added an additional widows 2025 server image to the mix. 
 
 # Prerequisites 
 
  - A freshly brewed cup of patience to get through the build.
  - Operating systems used in this sandbox (Windows 2022 Server, Windows 10, 11 Client, Ubuntu 22.04 LTS, Kali Linux)
- - Proxmox VE 8.1.5 (Fresh install)
+ - Proxmox VE 8.1.10 (Fresh install)
  - Hardware used: 1 Dell Latitude 5500 laptop - 1tb ssd - 32 gb RAM
 
 # Build Links
@@ -45,7 +45,7 @@ The following are links for elements needed to standd up each node.
 
 ## Vulnhub Automation Script
 
-This is a deployment script intended to make it easier to download, process and import vulnhub virtual machines. Run as root on the proxmox host and follow the prompts to generate the VM shell, download a vm via url then import and run the vm. s
+This is a deployment script intended to make it easier to download, process and import vulnhub virtual machines. Run as root on the proxmox host and follow the prompts to generate the VM shell, download a vm via url then import and run the vm.
 
 ## To Do
 
@@ -57,6 +57,7 @@ This is a deployment script intended to make it easier to download, process and 
   - Proxmox build doc
 - Automation
   - VM deployment script
+    - vulnhub-util.sh WIP
   - Ansible
 
 ## Credits
