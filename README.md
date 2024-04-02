@@ -43,7 +43,9 @@ The following are links for elements needed to standd up each node.
 
 - https://www.tenable.com/downloads/nessus?loginAttempted=true
 
+## Vulnhub Automation Script
 
+This is a deployment script intended to make it easier to download, process and import vulnhub virtual machines. Run as root on the proxmox host and follow the prompts to generate the VM shell, download a vm via url then import and run the vm. s
 
 ## To Do
 

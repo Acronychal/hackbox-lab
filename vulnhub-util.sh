@@ -2,8 +2,8 @@
 # created by : acronychal
 # utility to download vulnerable VM hosts vulnhub.com. 
 # version 1
-#Sample Vulnhub link
-#https://download.vulnhub.com/hackerkid/Hacker_Kid-v1.0.1.ova
+# Sample Vulnhub link
+# https://download.vulnhub.com/hackerkid/Hacker_Kid-v1.0.1.ova
 
 # variables
 STORAGE="local-lvm"
@@ -48,8 +48,9 @@ read -p "VLAN TAG : " VLANTAG
 read -p "Vulnhub URL : " VULN_URL
 
 ## CHECKPOINT > prints selections before building
-echo "VM Parameters : $VM_NAME,$VMID,$VLANTAG,$CORES,$RAM,$VULN_URL"
-echo -e "\n        press ENTER to build\n"
+echo "VM Parameters : VM Name : $VM_NAME VM ID : $VM_ID VM Cores : $CORES VM RAM : $RAM VLAN TAG : $VLANTAG"
+echo "Vuln-hub.com URL : $VULN_URL"
+echo -e "\n  press ENTER to build\n"
 read
 
 # create vm. 
