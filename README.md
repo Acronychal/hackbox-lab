@@ -4,7 +4,7 @@ A cyber security lab hosted in Proxmox VE
 
 
 
-![](hackbox-lab-topology-03272024.png)
+![](hackbox-lab-topology.04022024.png)
 
 This repo was inpired by @gerardobrien's "Ultimate Cybersecurity Lab" series. This is my take on his concept. 
 
