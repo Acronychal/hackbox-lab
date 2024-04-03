@@ -19,16 +19,17 @@ MD=("4" "4096")
 LG=("8" "8192")
 
 # Validate the user's choice and assign the size variables
+CHOICE=$(echo "$CHOICE" | tr '[:upper:]' '[:lower:]')  # Convert to lowercase
 case "$CHOICE" in
-    "SM")
+    "sm")
         CORES="${SM[0]}"
         RAM="${SM[1]}"
         ;;
-    "MD")
+    "md")
         CORES="${MD[0]}"
         RAM="${MD[1]}"
         ;;
-    "LG")
+    "lg")
         CORES="${LG[0]}"
         RAM="${LG[1]}"
         ;;
