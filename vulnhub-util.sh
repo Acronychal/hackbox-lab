@@ -10,7 +10,7 @@ STORAGE="local-lvm"
 
 # Prompt the user to select the VM size
 echo "Please select VM size:"
-echo "SM 2 Cores & 2gb RAM | MD 4 Cores & 4gb RAM | LG 8 Cores & 8gb RAM"
+echo "SM = 2 Cores & 2gb RAM | MD = 4 Cores & 4gb RAM | LG = 8 Cores & 8gb RAM"
 read -p "Enter VM size : " CHOICE
 
 # Define the options and corresponding sizes
